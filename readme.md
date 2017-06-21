@@ -2,7 +2,7 @@
 
 for data science, despite of the data pre-process, it has three different models:
 * statistical model
-* probilistical model
+* probibility model
 * machine learning model
 
 Books:
