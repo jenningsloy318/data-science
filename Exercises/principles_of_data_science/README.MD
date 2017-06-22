@@ -1,4 +1,7 @@
 **Tips**
+code repo: 
+
+https://github.com/PacktPublishing/Principles-of-Data-Science
 1. show mathplot graph 
 
    The same statements are the data preparation
