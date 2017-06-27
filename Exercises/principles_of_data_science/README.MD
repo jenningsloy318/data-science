@@ -11,6 +11,12 @@ https://github.com/PacktPublishing/Principles-of-Data-Science
     plt.xlabel("Number of throws in sample")
     plt.ylabel("Average Of Sample")
     ```  
+    or
+    ```
+    plt.plot(list1,list2)  // list1 -->x axis, list2 -->y axis
+    plt.xlabel("Number of throws in sample")
+    plt.ylabel("Average Of Sample")
+    ```
    Display in **cpython** 
     ```
     plt.show()
