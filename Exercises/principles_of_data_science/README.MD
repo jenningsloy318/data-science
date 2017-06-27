@@ -10,12 +10,15 @@ https://github.com/PacktPublishing/Principles-of-Data-Science
     df.plot(title="Law of Large Numbers")
     plt.xlabel("Number of throws in sample")
     plt.ylabel("Average Of Sample")
+    plt.grid(True)
     ```  
     or
     ```
     plt.plot(list1,list2)  // list1 -->x axis, list2 -->y axis
+    plt.title("Law of Large Numbers")
     plt.xlabel("Number of throws in sample")
     plt.ylabel("Average Of Sample")
+    plt.grid(True)
     ```
    Display in **cpython** 
     ```

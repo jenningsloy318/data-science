@@ -14,6 +14,8 @@ for num_trial  in num_trials:
         trials.append(random_variables_of_dice_roll())
     avgs.append(sum(trials)/float(num_trial))
 plt.plot(num_trials,avgs)
+plt.title=("Dice trials")
 plt.xlabel("Number of trials")
 plt.ylabel("Average")
+plt.grid(True)
 plt.show()
