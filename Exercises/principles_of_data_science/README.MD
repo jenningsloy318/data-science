@@ -11,6 +11,7 @@ https://github.com/PacktPublishing/Principles-of-Data-Science
     plt.xlabel("Number of throws in sample")
     plt.ylabel("Average Of Sample")
     plt.grid(True)
+    plt.title("some title")
     ```  
     or
     ```
@@ -19,6 +20,7 @@ https://github.com/PacktPublishing/Principles-of-Data-Science
     plt.xlabel("Number of throws in sample")
     plt.ylabel("Average Of Sample")
     plt.grid(True)
+    plt.title("some title")
     ```
    Display in **cpython** 
     ```
