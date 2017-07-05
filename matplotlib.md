@@ -1,7 +1,3 @@
-**Tips**
-code repo: 
-
-https://github.com/PacktPublishing/Principles-of-Data-Science
 1. show mathplot graph 
 
    The same statements are the data preparation
@@ -33,6 +29,9 @@ https://github.com/PacktPublishing/Principles-of-Data-Science
     fig.show()
     ``` 
     - subplots(nrows=1, ncols=1, sharex=False, sharey=False, squeeze=True, subplot_kw=None, gridspec_kw=None, **fig_kw)
+    - Axes(fig, rect, facecolor=None, frameon=True, sharex=None, sharey=None, label=u'', xscale=None, yscale=None, axisbg=None, **kwargs, details [Axes](https://matplotlib.org/devdocs/api/axes_api.html#matplotlib.axes.Axes)
+    - Figure(figsize=None, dpi=None, facecolor=None, edgecolor=None, linewidth=0.0, frameon=None, subplotpars=None, tight_layout=None), details [Figure](https://matplotlib.org/devdocs/api/_as_gen/matplotlib.figure.Figure.html#matplotlib.figure.Figure)
+   
    Display in **cpython** 
     ```
     plt.show()

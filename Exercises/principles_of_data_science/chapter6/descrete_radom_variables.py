@@ -13,10 +13,13 @@ for num_trial  in num_trials:
     for trial in range(num_trial):
         trials.append(random_variables_of_dice_roll())
     avgs.append(sum(trials)/float(num_trial))
-plt.plot(num_trials,avgs)
-plt.xlabel("Number of trials")
-plt.ylabel("Average")
-plt.title('Dice trials')
-plt.subplots_adjust(top=0.85)
-plt.grid(True)
+
+
+
+fig,ax=plt.subplots()
+ax.plot(num_trials,avgs)
+ax.set_title("pic title")
+ax.set_xlabel("xx")
+ax.set_ylabel("yy")
+fig.suptitle("supper title")
 plt.show()

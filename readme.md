@@ -15,4 +15,5 @@ Exercise:
 
 
 Tips:
-1. t=np.arange(1,9), t.prod(): is the factorial of 8, which is 8!
+1. [matplotlib](./matplotlib.md)
+2. [numpy](./numpy.md)
