@@ -40,3 +40,37 @@
     ```
     %matplotlib inline
     ```
+
+    ##for multiple plot, we need to  layout setting
+    
+    - subplot2grid
+    ```
+    fig = plt.figure(figsize=(8, 6))
+
+    ax1 = plt.subplot2grid((2, 2), (0, 0), colspan=2)
+    ax1.plot(x, y)
+    ax1.set_title("some title")
+    ax1.set_xlabel("xlabel")
+    ax1.set_ylabel("ylabel")
+    
+    ax2 = plt.subplot2grid((2, 2), (1, 0), colspan=1)
+    ...(ax2 setting)
+
+    ax3 = plt.subplot2grid((3, 3), (1, 2), rowspan=1)
+    ...(ax3 setting)
+
+    fig.suptitle("Analysis of Friends")
+    fig.tight_layout()
+    ```
+
+    - subplots_adjust
+
+    ```
+    fig.subplots_adjust(left=None, bottom=None, right=None, top=None, wspace=None, hspace=None)
+        - left  = 0.125  # the left side of the subplots of the figure
+        - right = 0.9    # the right side of the subplots of the figure
+        - bottom = 0.1   # the bottom of the subplots of the figure
+        - top = 0.9      # the top of the subplots of the figure
+        - wspace = 0.2   # the amount of width reserved for blank space between subplots
+        - hspace = 0.2   # the amount of height reserved for white space between subplots
+    ```
